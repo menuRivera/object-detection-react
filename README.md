@@ -18,7 +18,5 @@ cd object-detection-react
 Copy the `model_web` directory generated from the object detection walkthrough and paste it into the `public` folder of this repo.
 
 ## Run the App
-### `npm start`
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
+### `npm run dev` for react dynamic serving (http://localhost:3000),
+### `npm run start` for express serving (http://localhost:6969)
