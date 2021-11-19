@@ -37,8 +37,8 @@ const App = () => {
     <div className="fillPage">
       <ObjectDetectionVideo
         model={model}
-        // onPrediction={handlePrediction}
-        // render={render}
+        onPrediction={handlePrediction}
+        render={render}
         // aspectFill: The option to scale the video to fill the size of the view.
         //             Some portion of the video may be clipped to fill the view's
         //             bounds.
@@ -47,7 +47,7 @@ const App = () => {
         //             view's bounds is transparent.
         fit="aspectFill"
         // mirrored:   mirror the video about its vertical axis.
-        mirrored
+        // mirrored
       />
     </div>
   )
