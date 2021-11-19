@@ -7,7 +7,7 @@ const useWebcam = (videoRef, onLoaded) => {
         .getUserMedia({
           audio: false,
           video: {
-            facingMode: 'user',
+            facingMode: 'environment',
             width: { ideal: 4096 },
             height: { ideal: 2160 },
           },
